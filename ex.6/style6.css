@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {font-family: 'Montserrat', sans-serif;}
+
+.pole {
+    border-radius: 5px;
+    background-color: #D3D3D3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    width: 30%;
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+fieldset {
+    border-radius: 10px;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    background-color: black;
+    color:#D3D3D3 ;
+    font-size:small;
+
+}
