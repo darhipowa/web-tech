@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.body1 {
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613401175_180-p-bezhevii-geometricheskii-fon-212.jpg);
+}
+
+.body2 {
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613401175_180-p-bezhevii-geometricheskii-fon-212.jpg);
+}
+
+.body3 {
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613401175_180-p-bezhevii-geometricheskii-fon-212.jpg);
+}
+
+.table2 {
+    width: 60%;
+    align-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 20px;
+}
+
+
+.cell1{
+    text-align: left 
+}
+.cell2 {
+    text-align: left
+}
+
+
+.td2 {
+    text-align: left;
+}
+
+.rostov {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 30px;
+    float: left;
+    padding: 0 20px 20px 0;
+    width: 100%;
+}
+
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 4px;
+    color: #000;
+}
+
+.container {
+
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17em;
+    padding-top: 10px;
+}
+
+.instagram a:hover {background: hwb(210 82% 17%); color: #fff;}
+.telegram a:hover {background: hwb(210 82% 17%); color: #fff;}
+.vk a:hover {background: hwb(210 82% 17%); color: #fff;}
+.whatsapp a:hover {background: hwb(210 82% 17%); color: #fff;}
+
+.container_slider_css{margin:50px auto;width:500px;height:300px;overflow:hidden;position:relative}
+.photo_slider_css{position:absolute;animation:round 16s infinite;opacity:0;width:100%}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
